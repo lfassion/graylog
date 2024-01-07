@@ -30,7 +30,7 @@ services:
         # - GRAYLOG_TRANSPORT_SUBJECT_PREFIX=[graylog]
     ports:
       # Graylog web interface and REST API
-      - 7555:7555
+      - 80:7555
       # Syslog TCP
       - 8514:8514
       # Syslog UDP
